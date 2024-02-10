@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "jost", sans-serif;
+    list-style: none;
+    text-decoration: none;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+  }
+  .sticky img {
+    max-width: 300px;
+    height: auto;
+    margin-left: -100px;
+  }
+  .para {
+    margin-top: -400px;
+    color: white;
+    font-size: 30px;
+    margin-left: 170px;
+    position: absolute;
+  }
+  .sticky {
+    background-color: white;
+  }
+  .menu {
+    display: flex;
+    margin-left: 130px;
+  }
+  .menu a,.cus-ul a{
+    color: #2c2c2c;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 5px 35px;
+    font-weight: 400;
+    transition: all 0.41s ease;
+  }
+  .menu a:hover ,.cus-ul a:hover{
+    /* background-color: orangered; */
+    transition: 0.5s;
+    border-radius: 5px;
+    color: orangered;
+  }
+  .cart{
+    margin-left: 9dvh;
+  }
+  .nav-icon i:hover {
+    transform: scale(1.1);
+    color: #ee1c47;
+  }
+  .nav-icon {
+    display: flex;
+    align-items: center;
+  }
+  .nav-icon i {
+    margin-right: 170px;
+    color: #2c2c2c;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all 0.42s ease;
+  }
+  header.sticky {
+    background-color: #fff;
+    padding: 20px 20%;
+    box-shadow: 0px 0px 10px rgb(0 0 0/10%);
+  }
+  .bg1 {
+    width: 100%;
+    height: 545px;
+    background-position: center;
+    margin-top: 100px;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    /* background-image: url(img/bg2.png); */
+    height: 620px;
+    /* position: relative; */
+  }
+  .box1 {
+    background-color: palevioletred;
+    width: 300px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 7px;
+  }
+  .box2 {
+    background-color: red;
+    width: 300px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 7px;
+  }
+  .box3 {
+    background-color: skyblue;
+    width: 300px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 7px;
+  }
+  .box4 {
+    background-color: green;
+    width: 300px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 7px;
+  }
+  .box5 {
+    background-color: rgb(236, 236, 80);
+    width: 300px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 7px;
+  }
+  .box6 {
+    background-color: lightgreen;
+    width: 300px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 7px;
+  }
+  .box7 {
+    background-color: orangered;
+    width: 300px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 7px;
+  }
+  .box8 {
+    background-color: violet;
+    width: 300px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 7px;
+  }
+  .box9 {
+    background-color: rgb(179, 41, 41);
+    width: 300px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 7px;
+  }
+  .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-left: 40px; */
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    background-image: url(img/bg2.png);
+    background-size: cover;
+    height: 700px;
+    padding-top: 50px;
+  }
+  .images1 {
+    background-color: white;
+    width: 310px;
+    height: 250px;
+    margin-top: 40px;
+    margin-right: 60px;
+    border-radius: 4px;
+    animation: rotate 2s linear infinite;
+  }
+  .images1:hover{
+    transform: scale(1.1);
+
+  }
+  .images2 {
+    background-color: white;
+    width: 310px;
+    height: 250px;
+    margin-top: 40px;
+    margin-right: 60px;
+    border-radius: 4px;
+     animation: rotate 2s linear infinite;
+  }
+  .images2:hover{
+    transform: scale(1.1);
+  }
+  .images3 {
+    background-color: white;
+    width: 310px;
+    height: 250px;
+    margin-top: 40px;
+    margin-right: 60px;
+    border-radius: 4px;
+     animation: rotate 2s linear infinite;
+  }
+  .images3:hover{
+    transform: scale(1.1);
+  }
+  .images4 {
+    background-color: white;
+    width: 310px;
+    height: 250px;
+    margin-top: 40px;
+    margin-right: 60px;
+    border-radius: 4px;
+     animation: rotate 2s linear infinite;
+  }
+  .images4:hover{
+    transform: scale(1.1);
+  }
+  .images5 {
+    background-color: white;
+    width: 310px;
+    height: 250px;
+    margin-top: 40px;
+    margin-right: 60px;
+    border-radius: 4px;
+     animation: rotate 2s linear infinite;
+  }
+  .images5:hover{
+    transform: scale(1.1);
+  }
+  .images6 {
+    background-color: white;
+    width: 310px;
+    height: 250px;
+    margin-top: 40px;
+    margin-right: 60px;
+    border-radius: 4px;
+     animation: rotate 2s linear infinite;
+  }
+  .images6:hover{
+    transform: scale(1.1);
+  }
+  .center-text {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    position: absolute;
+    margin-left: 330px;
+    
+  }
+  .center-text h2 {
+    color: #111;
+    text-transform: capitalize;
+    font-weight: 200;
+  }
+  .center-text span {
+    font-weight: 900;
+  }
+  .center-text1{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+  }
+  .center-text1 h2 {
+    color: #111;
+    text-transform: capitalize;
+    font-weight: 200;
+  }
+  .center-text1 span {
+    font-weight: 900;
+  }
+  .logos {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .l1 {
+    margin-right: 20px;
+  }
+  .l2 {
+    margin-left: 20px;
+  }
+  .l3 {
+    margin-left: 40px;
+  }
+  .l4 {
+    margin-left: 50px;
+  }
+  .end {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  .final{
+    display: flex;
+    margin-top: 30px;
+  }
+  .home-final{
+    margin-left: 130px;
+    margin-top: 10px;
+  }
+  .cus ,.info{
+    margin-left: 120px;
+  }
+.cus-ul,.info-ul{
+  margin: 40px;
+  /* padding: 20px; */
+}
+.li1,.li2,.li3,.li4,.li5{
+padding-bottom: 15px;
+}
+h4{
+  margin-top: 20px;
+}
+.info-ul{
+  font-size: 12px;
+  margin-left: 5px;
+}
+.cus-ul{
+width: 300px;
+margin-left: 1px;
+}
